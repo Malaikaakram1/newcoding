@@ -1,0 +1,266 @@
+
+body{
+    background-color: black;
+}
+header{
+    background-color: #FF9F0E;
+    color: white;
+
+    
+}
+.logo{
+  
+   font-size: 24px;
+   font-weight: 900;
+   padding-top: 5px;
+}
+
+ul li {
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav ul{ 
+    display: flex;
+
+}
+
+ul li {
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 500;
+   
+    padding-top: 10px;
+    
+}
+.button{
+    margin-bottom: 20px;
+    width: 90px;
+    height: 39px;
+    border-radius: 8px;
+    border-color: white;
+    color: #FF9F0E;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.hero-section{
+    padding-top: 100px;
+    background-color: black;
+}
+h2{
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+   
+}
+p{
+   font-size: 24px;
+   color: white;
+   font-weight: 500px;
+   
+}
+.seemenu{
+    width: 170px;
+    height: 39px;
+    border-radius: 8px;
+    border-color: white;
+    color: #FF9F0E;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.heroimage{
+    width: 600px;
+    height: 500px;
+    border-radius: 8px;
+}
+
+.main-class{ 
+    padding-top: 100px;
+    background-color: black;
+}
+.main-class p{
+    color: #FF9F0E;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.main-class  h2{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+     
+}
+.main-class .images{
+    display: flex;
+    background-color: #FF9F0E;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    justify-content: space-between;
+    
+
+}
+.main-class .images .first-imag img{
+    width:190px;
+    height: 190px;
+    border-radius: 50%;
+}
+.main-class .images .first-imag p{
+    padding-top: 17px;
+    color: white;
+
+}
+.main-class .images .second-imag img{
+    width:190px;
+    height: 190px;
+    border-radius: 50%;
+}
+.main-class .images .second-imag p{
+    padding-top: 17px;
+    color: white;
+    
+}
+.main-class .images .third-imag img{
+    width:190px;
+    height: 190px;
+    border-radius: 50%;
+}
+.main-class .images .third-imag p{
+    padding-top: 17px;
+    color: white;
+    
+}
+.main-class .images .fourth-imag img{
+    width:190px;
+    height: 190px;
+    border-radius: 50%;
+}
+.main-class .images .fourth-imag p{
+    padding-top: 17px;
+    color: white;
+    
+}
+.main-class .images .fifth-imag img{
+    width:190px;
+    height: 190px;
+    border-radius: 50%;
+}
+.main-class .images .fifth-imag p{
+    padding-top: 17px;
+    color: white;
+    
+}
+.cards-section{
+    background-color: black;
+}
+.cards-section p{
+    color: #FF9F0E;
+    font-size: 20px;
+    padding-top: 100px;
+}
+.cards-section h2{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    padding-bottom: 20px;
+     
+}
+/* .cards-section .card {
+   
+    width: 400px;
+    height: 520px;
+    border-radius: 5px;
+    background-color: #FF9F0E;
+}
+.cards-section .card .first-card img{
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    padding-top: 48px;
+    
+    
+}
+.cards-section .card-one p{
+    padding-top: 39px;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+
+}  */
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+.cards-section .card {
+    width: 400px;
+    height: 520px;
+    border-radius: 5px;
+    background-color: #FF9F0E;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+}
+
+.cards-section .card .first-card img {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.cards-section .card-one p {
+    padding-top: 20px; /* Adjust as needed */
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+footer{
+    
+    margin-top: 100px;
+    background-color: #FF9F0E;
+}
+.fistcont h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+.fistcont p{
+    font-size: 24px;
+}
+.mainmenu h4{
+    font-size: 28px;
+    font-weight: 300px;
+    color: white;
+}
+.contact h4{
+    font-size: 28px;
+    font-weight: 300px;
+    color: white;
+}
+.contact p{
+    padding-top: 20px;
+    font-size: 24px;
+    
+}
+.firstcardcon{
+    padding-right: 170px;
+    line-height: 13px;
+    margin-top: 30px;
+}
+.seccardcon{
+    padding-right: 215px;
+    line-height: 13px;
+    margin-top: 30px;
+}
+.thirdcardcon{
+    padding-right: 210px;
+    line-height: 13px;
+    margin-top: 30px;
+}
