@@ -13,6 +13,7 @@ header{
    font-size: 24px;
    font-weight: 900;
    padding-top: 5px;
+   padding-bottom: 15px;
 }
 
 ul li {
@@ -23,6 +24,7 @@ a{
     text-decoration: none;
     color: white;
 }
+
 nav ul{ 
     display: flex;
 
@@ -35,6 +37,21 @@ ul li {
    
     padding-top: 10px;
     
+}
+.navbar-toggler {
+    height: 40px;
+    width: 70px;
+
+    color: white;
+    text-align: right;
+    /* initially hidden, you can toggle this based on your requirements */
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 30px;
+    margin-right: 10%;
+    margin-top: 15px;
+    display: none;
 }
 .button{
     margin-bottom: 20px;
@@ -74,7 +91,7 @@ p{
     font-weight: bold;
 
 }
-.heroimage{
+.heroimage img{
     width: 600px;
     height: 500px;
     border-radius: 8px;
@@ -195,15 +212,16 @@ p{
 
 }  */
 
-.cards {
+.cards-section .cards {
     display: flex;
     justify-content: space-around;
 }
 .cards-section .card {
-    width: 400px;
-    height: 520px;
+    width: 380px;
+    height: 500px;
     border-radius: 5px;
     background-color: #FF9F0E;
+    
     display: flex;
     flex-direction: column;
     align-items: center; /* Center content horizontally */
@@ -250,17 +268,127 @@ footer{
     
 }
 .firstcardcon{
-    padding-right: 170px;
+    /* padding-right: 170px; */
     line-height: 13px;
     margin-top: 30px;
 }
 .seccardcon{
-    padding-right: 215px;
+    /* padding-right: 215px; */
     line-height: 13px;
     margin-top: 30px;
 }
 .thirdcardcon{
-    padding-right: 210px;
+    /* padding-right: 210 px; */
     line-height: 13px;
     margin-top: 30px;
+}
+@media (max-width: 991px) {
+    /* Adjust styles for smaller screens */
+
+    
+    /* .nav {
+        text-align: center;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+     
+        margin-bottom: 10px;
+    } */
+
+    .navbar-toggler {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+    .hero-section{
+        height: auto;
+        
+        
+    }
+    .herocont, 
+    .heroimage{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .heroimage img{
+        width: 100%;
+        height: auto;
+    }
+    h2{
+        
+        font-size: 50px;
+    }
+    p{
+        
+        width: 100%;
+    }
+    .seemenu{
+        width: 140px;
+        height: 39px;
+    }
+    .main-class .images{
+        text-align: center;
+        display: block;
+    } 
+     
+}
+
+@media (max-width: 995px) {
+    .cards-section .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards-section .cards .card {
+        margin: 10px 0;
+    }
+    .footer-content {
+        text-align: center;
+    }
+    .cards-section p,h2{
+        text-align: center;
+    }
+    .cards-section h2{
+        font-size: 50px;
+    }
+   
+    @media (max-width: 995px) {
+        .col-lg-4 {
+            justify-content: center !important;
+        }
+    }
+    
+
+}
+
+@media (max-width: 420px) {
+    .cards-section .cards .card {
+        width: 80%;
+       height: auto;
+       padding: 10px 0;
+    }
+
+    .cards-section .cards .card img {
+        width: 50%;
+        height: auto;
+    }
+
+    .cards-section .cards .card {
+        text-align: center;
+    }
+
+
+    .cards-section  .card .content {
+        text-align: center;
+        font-size: 5px;
+    }
+    
 }
